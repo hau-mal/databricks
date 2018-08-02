@@ -8,3 +8,4 @@ Demo-Notebooks to read data from an Azure Storage Container added as an addition
 Demo Notebooks can be found here:
 * [Notebook1 Scala](https://github.com/hau-mal/databricks/blob/master/notebooks/Read-IoT-Data-from-a-Storage-Container(Scala).dbc)
 * [Notebook2 Scala&Python](https://github.com/hau-mal/databricks/blob/master/notebooks/Read-IoT-Data-from-a-Storage-Container-Endpoint.dbc)
+*[Notebookd1 Scala](https://raw.github.com/hau-mal/databricks/master/notebooks/Read-IoT-Data-from-a-Storage-Container(Scala).dbc)
