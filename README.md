@@ -1,7 +1,7 @@
 # Databricks sample content
 
 ## 1. dbstats - Compute statistics for all tables (&columns) in a schema
-
+* [Notebook](https://raw.github.com/hau-mal/databricks/master/notebooks/dbstat.dbc)
 
 ## 2. Reading Azure IoT-Hub data stored at a Storage Container Endpoint
 Demo-Notebooks to read data from an Azure Storage Container added as an additional custom endpoint to Azure IoT-Hub:
@@ -23,6 +23,6 @@ Configure a route to the new custom endpoint for the Device Messages. You have t
 
 Now all new messages will be streamed to the new endpoint. If you mount the storage container in Azure Databricks, the data can be accessed directly under the mountpoint.
 
-Demo Notebooks can be found here:
+Sample Notebooks can be found here:
 * [Notebook1 Scala](https://raw.github.com/hau-mal/databricks/master/notebooks/Read-IoT-Data-from-a-Storage-Container(Scala).dbc)
-* [Notebook2 Scala&Python](https://raw.github.com/hau-mal/databricks/master/notebooks/Read-IoT-Data-from-a-Storage-Container-Endpoint.dbc)
+* [Notebook2 Python](https://raw.github.com/hau-mal/databricks/master/notebooks/Read-IoT-Data-from-a-Storage-Container-Endpoint.dbc)
