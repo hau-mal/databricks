@@ -1,6 +1,9 @@
-# Databricks demo content
+# Databricks sample content
 
-## 1. Reading Azure IoT-Hub data stored at a Storage Container Endpoint
+## 1. dbstats - Compute statistics for all tables (&columns) in a schema
+
+
+## 2. Reading Azure IoT-Hub data stored at a Storage Container Endpoint
 Demo-Notebooks to read data from an Azure Storage Container added as an additional custom endpoint to Azure IoT-Hub:
 
 ![iot-endpoint](https://raw.githubusercontent.com/hau-mal/articles/master/images/iot-hub-enpoint-1.png)
