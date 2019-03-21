@@ -7,6 +7,7 @@
 * [Notebook](https://raw.github.com/hau-mal/databricks/master/notebooks/PySimulatedDevicesfromIoTHub2EH.dbc)
 
 ## 3. Read all tables from a schema and copy them to a SQL DB
+The driver notebook reads all tables in the given schema and triggers the copy-notebook copying the Spark SQL table to the Azure SQL DB.
 * [Driver Notebook](https://raw.github.com/hau-mal/databricks/master/notebooks/driver.dbc)
 * [Copy Notebook](https://raw.github.com/hau-mal/databricks/master/notebooks/copy2sqlV2.dbc)
 
