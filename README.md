@@ -3,15 +3,21 @@
 ## 1. dbstats - Compute statistics for all tables (&columns) in a schema
 * [Notebook](https://raw.github.com/hau-mal/databricks/master/notebooks/dbstat.dbc)
 
-## 2. Read data from IoT-Hub and write it back to an EventHub and Azure Data Lake
+## 2. Stream-Processing with Azure EventHubs with Kafka enabled endpoint
+* [Generating events](https://raw.github.com/hau-mal/databricks/master/notebooks/eh-kafka-generator.dbc) to an Azure EventHub with a Kafka enabled endpoint. The Apache Kafka connectors for Structured Streaming are packaged in Databricks Runtime.
+* [Reading the generated events](https://raw.github.com/hau-mal/databricks/master/notebooks/eh-kafka-reader-py.dbc) with the Kafka libs.
+* [Reading the generated events](https://raw.github.com/hau-mal/databricks/master/notebooks/eh-reader-py.dbc) with the Azure Event Hubs libs.
+* With EventHub capturing enabled on an EventHubs, events are captured in Azur Blob or Azure Data Lakes Store. This [Notebook](https://raw.github.com/hau-mal/databricks/master/notebooks/eh-kafka-ReadCapturedEvents.dbc) demonstrated how to read the captured events.
+
+## 3. Read data from IoT-Hub and write it back to an EventHub and Azure Data Lake
 * [Notebook](https://raw.github.com/hau-mal/databricks/master/notebooks/PySimulatedDevicesfromIoTHub2EH.dbc)
 
-## 3. Read all tables from a schema and copy them to a SQL DB
+## 4. Read all tables from a schema and copy them to a SQL DB
 The driver notebook reads all tables in the given schema and triggers the copy-notebook copying the Spark SQL table to the Azure SQL DB.
 * [Driver Notebook](https://raw.github.com/hau-mal/databricks/master/notebooks/driver.dbc)
 * [Copy Notebook](https://raw.github.com/hau-mal/databricks/master/notebooks/copy2sqlV2.dbc)
 
-## 4. Reading Azure IoT-Hub data stored at a Storage Container Endpoint
+## 5. Reading Azure IoT-Hub data stored at a Storage Container Endpoint
 Demo-Notebooks to read data from an Azure Storage Container added as an additional custom endpoint to Azure IoT-Hub:
 
 ![iot-endpoint](https://raw.githubusercontent.com/hau-mal/articles/master/images/iot-hub-enpoint-1.png)
