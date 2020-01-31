@@ -5,7 +5,7 @@
 
 ## 2. Stream-Processing with Azure EventHubs with Kafka enabled endpoint
 * [Generating events](https://raw.github.com/hau-mal/databricks/master/notebooks/eh-kafka-generator.dbc) to an Azure EventHub with a Kafka enabled endpoint. The Apache Kafka connectors for Structured Streaming are packaged in Databricks Runtime.
-* [Reading the generated events](https://raw.github.com/hau-mal/databricks/master/notebooks/eh-kafka-reader-py.dbc) with the Kafka libs.
+* [Reading the generated events](https://raw.github.com/hau-mal/databricks/master/notebooks/eh-kafka-reader-py.dbc) with the Kafka libs. Sample Notebook reading data from an EventHub with Kafka enabled endpoint, writing the data to an Azure Data Lake Store serialized as JSON partitioned by ingest-date.
 * [Reading the generated events](https://raw.github.com/hau-mal/databricks/master/notebooks/eh-reader-py.dbc) with the Azure Event Hubs libs.
 * Best practice is to archive incoming events on an Azure Event Hub with EventHub capturing enabled on an EventHubs. Events are captured in Azure Blob or Azure Data Lakes Store in Avro. This [Notebook](https://raw.github.com/hau-mal/databricks/master/notebooks/eh-kafka-ReadCapturedEvents.dbc) demonstrated how to read the captured events.
 
